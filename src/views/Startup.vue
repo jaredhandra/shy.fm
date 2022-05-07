@@ -1,8 +1,7 @@
 <template>
   <div class="container">
     <div id="start-button">
-      <button>Start</button>
-      <div class="shy-os">shyOS</div>
+      <span class="system">INITIATE SHY.FM</span>
     </div>
   </div>
 </template>
@@ -23,10 +22,19 @@ export default {
   height: inherit;
   justify-content: center;
   align-items: center;
+
+  #start-button {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid transparent;
+    outline: 1px solid rgb(126,129,168);
+    background: rgba(194,195,214,0.15);
+    cursor: pointer;
+    .system {
+      font-family: FerriteCoreDXRegular;
+      font-size: 32px;
+    }
+  }
 }
-.shy-os {
-  font-family: FantasmaRegular;
-  font-size: 64px;
-  padding-top: 20px;
-}
+
 </style>

@@ -25,4 +25,9 @@ html, body {
   font-family: FantasmaRegular;
   src: url("fonts/Fantasma-Regular.ttf")  format("truetype");
 }
+
+@font-face {
+  font-family: FerriteCoreDXRegular;
+  src: url("fonts/FerriteCoreDX-Regular.ttf")  format("truetype");
+}
 </style>
